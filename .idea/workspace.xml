@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add facade pattern">
-      <change afterPath="$PROJECT_DIR$/src/structural/bridge/README.md" afterDir="false" />
+    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add bridge pattern">
+      <change afterPath="$PROJECT_DIR$/src/structural/decorator/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -63,6 +63,7 @@
     "Application.observer.Example.executor": "Run",
     "Application.prototype.Example.executor": "Run",
     "Application.statePattern.Example.executor": "Run",
+    "Application.structural.bridge.Example.executor": "Run",
     "Application.structural.facade.Example.executor": "Run",
     "Application.structural.proxy.Example.executor": "Run",
     "Application.templateMethod.Example.executor": "Run",
@@ -90,7 +91,20 @@
       <recent name="$PROJECT_DIR$/src/creational/singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.structural.bridge.Example">
+  <component name="RunManager" selected="Application.Example">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.decorator.Example" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="creational.abstractFactory.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.abstractFactory.Example" />
       <module name="DesignPatterns" />
@@ -130,19 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="structural.flyweight.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.flyweight.Example" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural.flyweight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="structural.proxy.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.proxy.Example" />
       <module name="DesignPatterns" />
@@ -158,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example" />
         <item itemvalue="Application.structural.bridge.Example" />
         <item itemvalue="Application.structural.facade.Example" />
         <item itemvalue="Application.structural.proxy.Example" />
         <item itemvalue="Application.creational.abstractFactory.Example" />
-        <item itemvalue="Application.structural.flyweight.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +183,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722701014342</updated>
-      <workItem from="1722701015321" duration="8302000" />
+      <workItem from="1722701015321" duration="8442000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -384,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722711724705</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add bridge pattern">
+      <option name="closed" value="true" />
+      <created>1722711872248</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1722711872248</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,6 +423,7 @@
     <MESSAGE value="Add proxy pattern" />
     <MESSAGE value="Move patterns to new folder" />
     <MESSAGE value="Add facade pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add facade pattern" />
+    <MESSAGE value="Add bridge pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add bridge pattern" />
   </component>
 </project>
