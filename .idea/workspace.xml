@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Move patterns to new folder">
-      <change afterPath="$PROJECT_DIR$/src/structural/proxy/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composite/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/composite/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composite/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/composite/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composite/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/composite/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/flyweight/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/flyweight/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/flyweight/Flyweight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/flyweight/Flyweight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/flyweight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/flyweight/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Move patterns to new folder" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +61,7 @@
     "Application.observer.Example.executor": "Run",
     "Application.prototype.Example.executor": "Run",
     "Application.statePattern.Example.executor": "Run",
+    "Application.structural.proxy.Example.executor": "Run",
     "Application.templateMethod.Example.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -111,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="creational.abstractFactory.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.abstractFactory.Example" />
+    <configuration name="behavioral.interpreter.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.interpreter.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.abstractFactory.*" />
+          <option name="PATTERN" value="behavioral.interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="interpreter.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interpreter.Example" />
+    <configuration name="creational.abstractFactory.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.abstractFactory.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interpreter.*" />
+          <option name="PATTERN" value="creational.abstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,7 +159,7 @@
         <item itemvalue="Application.creational.abstractFactory.Example" />
         <item itemvalue="Application.structural.flyweight.Example" />
         <item itemvalue="Application.composite.Example" />
-        <item itemvalue="Application.interpreter.Example" />
+        <item itemvalue="Application.behavioral.interpreter.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722701014342</updated>
-      <workItem from="1722701015321" duration="7853000" />
+      <workItem from="1722701015321" duration="7986000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -359,7 +349,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722711059810</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add proxy pattern">
+      <option name="closed" value="true" />
+      <created>1722711422325</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1722711422325</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Move patterns to new folder">
+      <option name="closed" value="true" />
+      <created>1722711434503</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1722711434503</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,6 +392,7 @@
     <MESSAGE value="Add composite pattern" />
     <MESSAGE value="Add flyweight pattern" />
     <MESSAGE value="Add AbstractFactory pattern" />
+    <MESSAGE value="Add proxy pattern" />
     <MESSAGE value="Move patterns to new folder" />
     <option name="LAST_COMMIT_MESSAGE" value="Move patterns to new folder" />
   </component>
