@@ -46,3 +46,11 @@ Behavioral patterns focus on communication between objects, what goes on between
 
 Design patterns provide time-tested solutions to common problems in software design. Understanding and applying these patterns helps in creating flexible, reusable, and maintainable code. This overview of Creational, Structural, and Behavioral patterns should provide a solid foundation for using design patterns effectively in your projects.
 
+## Notes
+Feel free to contribute by adding new examples, update readmes or write notes or comments that could possibly help someone that is looking to understand this concepts.
+
+## Authors / Contributors
+
+- [@PotatoDoge](https://github.com/PotatoDoge)
+
+
