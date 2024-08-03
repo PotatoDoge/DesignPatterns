@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add factory pattern">
-      <change afterPath="$PROJECT_DIR$/src/builder/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/README.md" afterDir="false" />
+    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add prototype pattern">
+      <change afterPath="$PROJECT_DIR$/src/adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,12 +51,14 @@
     "Application.Example.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.SingletonDemo.executor": "Run",
+    "Application.adapter.Example.executor": "Run",
     "Application.builder.Example.executor": "Run",
     "Application.factory.Example.executor": "Run",
+    "Application.prototype.Example.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bprado/Code/DesignPatterns/src/builder",
+    "last_opened_file_path": "/Users/bprado/Code/DesignPatterns/src/adapter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,11 +69,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/adapter" />
       <recent name="$PROJECT_DIR$/src/prototype" />
       <recent name="$PROJECT_DIR$/src/builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.prototype.Example">
+  <component name="RunManager" selected="Application.adapter.Example">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.Example" />
       <module name="DesignPatterns" />
@@ -84,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.SingletonDemo" />
+    <configuration name="adapter.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adapter.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.adapter.Example" />
         <item itemvalue="Application.prototype.Example" />
         <item itemvalue="Application.builder.Example" />
         <item itemvalue="Application.factory.Example" />
         <item itemvalue="Application.Example" />
-        <item itemvalue="Application.SingletonDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722701014342</updated>
-      <workItem from="1722701015321" duration="1745000" />
+      <workItem from="1722701015321" duration="2308000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -180,7 +184,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722702451461</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add builder">
+      <option name="closed" value="true" />
+      <created>1722703031307</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722703031307</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add prototype pattern">
+      <option name="closed" value="true" />
+      <created>1722703301283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722703301283</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +209,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add factory pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add factory pattern" />
+    <MESSAGE value="Add builder" />
+    <MESSAGE value="Add prototype pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add prototype pattern" />
   </component>
 </project>
