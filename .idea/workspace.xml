@@ -84,7 +84,7 @@
       <recent name="$PROJECT_DIR$/src/command" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.interpreter.Example">
+  <component name="RunManager" selected="Application.composite.Example">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.Example" />
       <module name="DesignPatterns" />
@@ -98,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="interpreter.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interpreter.Example" />
+    <configuration name="composite.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="composite.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interpreter.*" />
+          <option name="PATTERN" value="composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mediator.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mediator.Example" />
+    <configuration name="interpreter.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interpreter.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mediator.*" />
+          <option name="PATTERN" value="interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.composite.Example" />
         <item itemvalue="Application.interpreter.Example" />
         <item itemvalue="Application.memento.Example" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.statePattern.Example" />
-        <item itemvalue="Application.mediator.Example" />
       </list>
     </recent_temporary>
   </component>
