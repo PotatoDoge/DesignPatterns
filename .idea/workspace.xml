@@ -84,7 +84,7 @@
       <recent name="$PROJECT_DIR$/src/command" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.composite.Example">
+  <component name="RunManager" selected="Application.flyweight.Example">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.Example" />
       <module name="DesignPatterns" />
@@ -104,6 +104,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="flyweight.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flyweight.Example" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,26 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="statePattern.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="statePattern.Example" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="statePattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.flyweight.Example" />
         <item itemvalue="Application.composite.Example" />
         <item itemvalue="Application.interpreter.Example" />
         <item itemvalue="Application.memento.Example" />
         <item itemvalue="Application.Example" />
-        <item itemvalue="Application.statePattern.Example" />
       </list>
     </recent_temporary>
   </component>
