@@ -1,4 +1,4 @@
-package composite;
+package structural.composite;
 
 public class Example {
     public static void main(String[] args) {

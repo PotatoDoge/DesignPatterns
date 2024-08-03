@@ -1,4 +1,4 @@
-package adapter;
+package structural.adapter;
 
 public class Example {
     public static void main(String[] args) {
