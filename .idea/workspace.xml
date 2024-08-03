@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add strategy pattern">
-      <change afterPath="$PROJECT_DIR$/src/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/README.md" afterDir="false" />
+    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add template method pattern">
+      <change afterPath="$PROJECT_DIR$/src/iterator/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +55,14 @@
     "Application.builder.Example.executor": "Run",
     "Application.command.Example.executor": "Run",
     "Application.factory.Example.executor": "Run",
+    "Application.iterator.Example.executor": "Run",
     "Application.observer.Example.executor": "Run",
     "Application.prototype.Example.executor": "Run",
+    "Application.templateMethod.Example.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bprado/Code/DesignPatterns/src/command",
+    "last_opened_file_path": "/Users/bprado/Code/DesignPatterns/src/iterator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,14 +73,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/iterator" />
+      <recent name="$PROJECT_DIR$/src/templateMethod" />
       <recent name="$PROJECT_DIR$/src/command" />
       <recent name="$PROJECT_DIR$/src/strategy" />
       <recent name="$PROJECT_DIR$/src/observer" />
-      <recent name="$PROJECT_DIR$/src/adapter" />
-      <recent name="$PROJECT_DIR$/src/prototype" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.templateMethod.Example">
+  <component name="RunManager" selected="Application.iterator.Example">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strategy.Example" />
       <module name="DesignPatterns" />
@@ -92,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="adapter.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adapter.Example" />
+    <configuration name="command.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="command.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adapter.*" />
+          <option name="PATTERN" value="command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="command.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="command.Example" />
+    <configuration name="iterator.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iterator.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="command.*" />
+          <option name="PATTERN" value="iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.iterator.Example" />
         <item itemvalue="Application.templateMethod.Example" />
         <item itemvalue="Application.command.Example" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.observer.Example" />
-        <item itemvalue="Application.adapter.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722701014342</updated>
-      <workItem from="1722701015321" duration="4698000" />
+      <workItem from="1722701015321" duration="5300000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -236,7 +238,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722706697224</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add command pattern">
+      <option name="closed" value="true" />
+      <created>1722707227017</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722707227017</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add template method pattern">
+      <option name="closed" value="true" />
+      <created>1722707495751</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722707495751</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +269,8 @@
     <MESSAGE value="Add observer pattern" />
     <MESSAGE value="Fix readme files" />
     <MESSAGE value="Add strategy pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add strategy pattern" />
+    <MESSAGE value="Add command pattern" />
+    <MESSAGE value="Add template method pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add template method pattern" />
   </component>
 </project>
