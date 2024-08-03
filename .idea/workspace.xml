@@ -87,7 +87,7 @@
       <recent name="$PROJECT_DIR$/src/creational/singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.structural.proxy.Example">
+  <component name="RunManager" selected="Application.structural.facade.Example">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.composite.Example" />
       <module name="DesignPatterns" />
@@ -101,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="behavioral.interpreter.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.interpreter.Example" />
+    <configuration name="creational.abstractFactory.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.abstractFactory.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.interpreter.*" />
+          <option name="PATTERN" value="creational.abstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="creational.abstractFactory.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.abstractFactory.Example" />
+    <configuration name="structural.facade.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.facade.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.abstractFactory.*" />
+          <option name="PATTERN" value="structural.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.structural.facade.Example" />
         <item itemvalue="Application.structural.proxy.Example" />
         <item itemvalue="Application.creational.abstractFactory.Example" />
         <item itemvalue="Application.structural.flyweight.Example" />
         <item itemvalue="Application.composite.Example" />
-        <item itemvalue="Application.behavioral.interpreter.Example" />
       </list>
     </recent_temporary>
   </component>
