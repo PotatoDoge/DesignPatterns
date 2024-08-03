@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Move patterns to new folder" />
+    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add facade pattern">
+      <change afterPath="$PROJECT_DIR$/src/structural/bridge/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +63,7 @@
     "Application.observer.Example.executor": "Run",
     "Application.prototype.Example.executor": "Run",
     "Application.statePattern.Example.executor": "Run",
+    "Application.structural.facade.Example.executor": "Run",
     "Application.structural.proxy.Example.executor": "Run",
     "Application.templateMethod.Example.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -87,13 +90,13 @@
       <recent name="$PROJECT_DIR$/src/creational/singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.structural.facade.Example">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.composite.Example" />
+  <component name="RunManager" selected="Application.structural.bridge.Example">
+    <configuration name="creational.abstractFactory.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.abstractFactory.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.composite.*" />
+          <option name="PATTERN" value="creational.abstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="creational.abstractFactory.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.abstractFactory.Example" />
+    <configuration name="structural.bridge.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.bridge.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.abstractFactory.*" />
+          <option name="PATTERN" value="structural.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.structural.bridge.Example" />
         <item itemvalue="Application.structural.facade.Example" />
         <item itemvalue="Application.structural.proxy.Example" />
         <item itemvalue="Application.creational.abstractFactory.Example" />
         <item itemvalue="Application.structural.flyweight.Example" />
-        <item itemvalue="Application.composite.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722701014342</updated>
-      <workItem from="1722701015321" duration="7986000" />
+      <workItem from="1722701015321" duration="8302000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -365,7 +368,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722711434503</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Move patterns to new folder">
+      <option name="closed" value="true" />
+      <created>1722711548542</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1722711548542</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add facade pattern">
+      <option name="closed" value="true" />
+      <created>1722711724705</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1722711724705</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,6 +413,7 @@
     <MESSAGE value="Add AbstractFactory pattern" />
     <MESSAGE value="Add proxy pattern" />
     <MESSAGE value="Move patterns to new folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move patterns to new folder" />
+    <MESSAGE value="Add facade pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add facade pattern" />
   </component>
 </project>
