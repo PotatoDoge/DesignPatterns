@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add state pattern">
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/README.md" afterDir="false" />
+    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add visitor pattern">
+      <change afterPath="$PROJECT_DIR$/src/interpreter/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpreter/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +55,10 @@
     "Application.builder.Example.executor": "Run",
     "Application.command.Example.executor": "Run",
     "Application.factory.Example.executor": "Run",
+    "Application.interpreter.Example.executor": "Run",
     "Application.iterator.Example.executor": "Run",
     "Application.mediator.Example.executor": "Run",
+    "Application.memento.Example.executor": "Run",
     "Application.observer.Example.executor": "Run",
     "Application.prototype.Example.executor": "Run",
     "Application.statePattern.Example.executor": "Run",
@@ -82,7 +84,7 @@
       <recent name="$PROJECT_DIR$/src/command" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.memento.Example">
+  <component name="RunManager" selected="Application.interpreter.Example">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.Example" />
       <module name="DesignPatterns" />
@@ -96,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="iterator.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iterator.Example" />
+    <configuration name="interpreter.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interpreter.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iterator.*" />
+          <option name="PATTERN" value="interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.interpreter.Example" />
         <item itemvalue="Application.memento.Example" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.statePattern.Example" />
         <item itemvalue="Application.mediator.Example" />
-        <item itemvalue="Application.iterator.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722701014342</updated>
-      <workItem from="1722701015321" duration="6669000" />
+      <workItem from="1722701015321" duration="7150000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -280,7 +282,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722709759693</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add chain of responsibility pattern">
+      <option name="closed" value="true" />
+      <created>1722710019844</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722710019844</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add memento pattern">
+      <option name="closed" value="true" />
+      <created>1722710224956</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722710224956</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add visitor pattern">
+      <option name="closed" value="true" />
+      <created>1722710320230</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722710320230</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +326,9 @@
     <MESSAGE value="Add iterator pattern" />
     <MESSAGE value="Add mediator pattern" />
     <MESSAGE value="Add state pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add state pattern" />
+    <MESSAGE value="Add chain of responsibility pattern" />
+    <MESSAGE value="Add memento pattern" />
+    <MESSAGE value="Add visitor pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add visitor pattern" />
   </component>
 </project>
