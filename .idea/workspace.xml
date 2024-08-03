@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add iterator pattern">
-      <change afterPath="$PROJECT_DIR$/src/mediator/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/README.md" afterDir="false" />
+    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add mediator pattern">
+      <change afterPath="$PROJECT_DIR$/src/statePattern/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/statePattern/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/statePattern/State.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +59,12 @@
     "Application.mediator.Example.executor": "Run",
     "Application.observer.Example.executor": "Run",
     "Application.prototype.Example.executor": "Run",
+    "Application.statePattern.Example.executor": "Run",
     "Application.templateMethod.Example.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bprado/Code/DesignPatterns/src/mediator",
+    "last_opened_file_path": "/Users/bprado/Code/DesignPatterns/src/statePattern",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,27 +75,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/statePattern" />
       <recent name="$PROJECT_DIR$/src/mediator" />
       <recent name="$PROJECT_DIR$/src/iterator" />
       <recent name="$PROJECT_DIR$/src/templateMethod" />
       <recent name="$PROJECT_DIR$/src/command" />
-      <recent name="$PROJECT_DIR$/src/strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.mediator.Example">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strategy.Example" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.statePattern.Example">
     <configuration name="command.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="command.Example" />
       <module name="DesignPatterns" />
@@ -134,6 +122,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="statePattern.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="statePattern.Example" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="statePattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="templateMethod.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="templateMethod.Example" />
       <module name="DesignPatterns" />
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.statePattern.Example" />
         <item itemvalue="Application.mediator.Example" />
         <item itemvalue="Application.iterator.Example" />
         <item itemvalue="Application.templateMethod.Example" />
         <item itemvalue="Application.command.Example" />
-        <item itemvalue="Application.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722701014342</updated>
-      <workItem from="1722701015321" duration="5655000" />
+      <workItem from="1722701015321" duration="6325000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -263,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722707817997</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add mediator pattern">
+      <option name="closed" value="true" />
+      <created>1722709274458</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722709274458</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +290,7 @@
     <MESSAGE value="Add command pattern" />
     <MESSAGE value="Add template method pattern" />
     <MESSAGE value="Add iterator pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add iterator pattern" />
+    <MESSAGE value="Add mediator pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add mediator pattern" />
   </component>
 </project>
