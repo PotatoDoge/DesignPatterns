@@ -1,4 +1,4 @@
-# Singleton
+# Prototype
 ## Definition:
 The Prototype Pattern is used to create new objects by copying an existing object, known as the prototype. This is useful when the cost of creating a new object is high and copying an existing object is more efficient.
 ## When to Use:

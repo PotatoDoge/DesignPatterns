@@ -1,4 +1,4 @@
-# Builder
+# Adapter
 ## Definition:
 The Adapter Pattern is used to allow two incompatible interfaces to work together. It acts as a bridge between two incompatible interfaces by wrapping an existing class with a new interface.
 
