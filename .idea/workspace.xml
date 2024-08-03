@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Remove main">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Update main readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +181,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722701014342</updated>
-      <workItem from="1722701015321" duration="8771000" />
+      <workItem from="1722701015321" duration="9228000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -409,14 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1722712095917</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Update main readme">
+      <option name="closed" value="true" />
+      <created>1722712308145</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1722712308145</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add factory pattern" />
     <MESSAGE value="Add builder" />
     <MESSAGE value="Add prototype pattern" />
     <MESSAGE value="Add adapter pattern" />
@@ -441,6 +446,7 @@
     <MESSAGE value="Add bridge pattern" />
     <MESSAGE value="Add decorator pattern" />
     <MESSAGE value="Remove main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove main" />
+    <MESSAGE value="Update main readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update main readme" />
   </component>
 </project>
