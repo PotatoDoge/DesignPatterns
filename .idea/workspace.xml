@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add mediator pattern">
-      <change afterPath="$PROJECT_DIR$/src/statePattern/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statePattern/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statePattern/State.java" afterDir="false" />
+    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add state pattern">
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +82,13 @@
       <recent name="$PROJECT_DIR$/src/command" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.statePattern.Example">
-    <configuration name="command.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="command.Example" />
+  <component name="RunManager" selected="Application.Example">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="command.*" />
+          <option name="PATTERN" value="chainOfResponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example" />
         <item itemvalue="Application.statePattern.Example" />
         <item itemvalue="Application.mediator.Example" />
         <item itemvalue="Application.iterator.Example" />
         <item itemvalue="Application.templateMethod.Example" />
-        <item itemvalue="Application.command.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722701014342</updated>
-      <workItem from="1722701015321" duration="6325000" />
+      <workItem from="1722701015321" duration="6669000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -272,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722709274458</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add state pattern">
+      <option name="closed" value="true" />
+      <created>1722709759693</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722709759693</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +299,7 @@
     <MESSAGE value="Add template method pattern" />
     <MESSAGE value="Add iterator pattern" />
     <MESSAGE value="Add mediator pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add mediator pattern" />
+    <MESSAGE value="Add state pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add state pattern" />
   </component>
 </project>
