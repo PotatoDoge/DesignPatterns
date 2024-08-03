@@ -78,7 +78,7 @@
       <recent name="$PROJECT_DIR$/src/prototype" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.command.Example">
+  <component name="RunManager" selected="Application.templateMethod.Example">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strategy.Example" />
       <module name="DesignPatterns" />
@@ -131,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="prototype.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prototype.Example" />
+    <configuration name="templateMethod.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="templateMethod.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="prototype.*" />
+          <option name="PATTERN" value="templateMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.templateMethod.Example" />
         <item itemvalue="Application.command.Example" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.observer.Example" />
         <item itemvalue="Application.adapter.Example" />
-        <item itemvalue="Application.prototype.Example" />
       </list>
     </recent_temporary>
   </component>
