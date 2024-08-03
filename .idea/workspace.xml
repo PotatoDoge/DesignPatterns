@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add visitor pattern">
-      <change afterPath="$PROJECT_DIR$/src/interpreter/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interpreter/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interpreter/README.md" afterDir="false" />
+    <list default="true" id="cd7eecd3-a44a-4dd1-bc19-588f40a2c179" name="Changes" comment="Add flyweight pattern">
+      <change afterPath="$PROJECT_DIR$/src/creational/abstractFactory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/abstractFactory/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/abstractFactory/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/Prototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singleton/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singleton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +66,10 @@
     "Application.adapter.Example.executor": "Run",
     "Application.builder.Example.executor": "Run",
     "Application.command.Example.executor": "Run",
+    "Application.composite.Example.executor": "Run",
+    "Application.creational.abstractFactory.Example.executor": "Run",
     "Application.factory.Example.executor": "Run",
+    "Application.flyweight.Example.executor": "Run",
     "Application.interpreter.Example.executor": "Run",
     "Application.iterator.Example.executor": "Run",
     "Application.mediator.Example.executor": "Run",
@@ -83,14 +98,17 @@
       <recent name="$PROJECT_DIR$/src/templateMethod" />
       <recent name="$PROJECT_DIR$/src/command" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/creational/singleton" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.flyweight.Example">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.Example" />
+  <component name="RunManager" selected="Application.creational.abstractFactory.Example">
+    <configuration name="composite.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="composite.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chainOfResponsibility.*" />
+          <option name="PATTERN" value="composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="composite.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="composite.Example" />
+    <configuration name="creational.abstractFactory.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.abstractFactory.Example" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="composite.*" />
+          <option name="PATTERN" value="creational.abstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.creational.abstractFactory.Example" />
         <item itemvalue="Application.flyweight.Example" />
         <item itemvalue="Application.composite.Example" />
         <item itemvalue="Application.interpreter.Example" />
         <item itemvalue="Application.memento.Example" />
-        <item itemvalue="Application.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +194,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722701014342</updated>
-      <workItem from="1722701015321" duration="7150000" />
+      <workItem from="1722701015321" duration="7726000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -306,7 +324,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722710320230</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add interpret pattern">
+      <option name="closed" value="true" />
+      <created>1722710487883</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722710487883</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add composite pattern">
+      <option name="closed" value="true" />
+      <created>1722710605217</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722710605217</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add flyweight pattern">
+      <option name="closed" value="true" />
+      <created>1722710790042</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722710790042</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +371,9 @@
     <MESSAGE value="Add chain of responsibility pattern" />
     <MESSAGE value="Add memento pattern" />
     <MESSAGE value="Add visitor pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add visitor pattern" />
+    <MESSAGE value="Add interpret pattern" />
+    <MESSAGE value="Add composite pattern" />
+    <MESSAGE value="Add flyweight pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add flyweight pattern" />
   </component>
 </project>
